@@ -1,6 +1,6 @@
-# eslint-plugin-namek-testcase-owner
+# eslint-plugin-namek-testing
 
-test case should include code owner
+namek testing rules plugin for eslint
 
 ## Installation
 
@@ -10,22 +10,22 @@ You'll first need to install [ESLint](http://eslint.org):
 $ npm i eslint --save-dev
 ```
 
-Next, install `eslint-plugin-namek-testcase-owner`:
+Next, install `eslint-plugin-namek-testing`:
 
 ```
-$ npm install eslint-plugin-namek-testcase-owner --save-dev
+$ npm install eslint-plugin-namek-testing --save-dev
 ```
 
-**Note:** If you installed ESLint globally (using the `-g` flag) then you must also install `eslint-plugin-namek-testcase-owner` globally.
+**Note:** If you installed ESLint globally (using the `-g` flag) then you must also install `eslint-plugin-namek-testing` globally.
 
 ## Usage
 
-Add `namek-testcase-owner` to the plugins section of your `.eslintrc` configuration file. You can omit the `eslint-plugin-` prefix:
+Add `namek-testing` to the plugins section of your `.eslintrc` configuration file. You can omit the `eslint-plugin-` prefix:
 
 ```json
 {
     "plugins": [
-        "namek-testcase-owner"
+        "namek-testing"
     ]
 }
 ```
@@ -36,7 +36,7 @@ Then configure the rules you want to use under the rules section.
 ```json
 {
     "rules": {
-        "namek-testcase-owner/rule-name": 2
+        "namek-testing/rule-name": 2
     }
 }
 ```
